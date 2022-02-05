@@ -1,0 +1,209 @@
+/*header strat*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	background-color: #121B2A;
+	padding: 10px 0;
+}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+.logo{
+	width: 15%;
+	float: left;
+
+}
+.logo img{
+	width: 100%;
+
+} 
+.menue{
+width: 70%;
+float: right;
+margin-top: 25px;
+}
+.menue ul{
+	
+	float: right;
+}
+.menue ul li{
+	list-style: none;
+	float: left;
+}
+.menue ul li a{
+	/*font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: 0F2656;
+	
+	margin: 0px 20px*/
+
+	text-decoration: none;
+	padding: 5px 15px;
+	display: block;
+	color: white;
+	transition: .5s;
+}
+.menue ul li:last-child a{
+	padding-right: 0;
+	}
+.menue ul li a:hover{
+	color: #0277BA;
+	}
+
+
+
+
+/*header end*/	
+
+/*banner start*/
+.banner{
+background-image: url(../image/banner.PNG);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+.banner-content{
+	margin-top: 200px;
+	margin-bottom: 50px;
+	width: 45%;
+
+}
+.banner-content p:first-child{
+color: white;
+font-size: 28px;
+font-family: sans-serif;
+}
+.banner-content h1{
+color: #0070B2;
+font-size: 35px;
+font-family: sans-serif;
+}
+
+.banner-content p:nth-last-child(2){
+color: white;
+font-size: 18px;
+line-height: 1.5;
+}
+
+.banner-content button{
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+color: #5A5A5A;
+font-size: 16px;
+margin-top: 20px;
+background-color: white;
+}
+.banner-content button span{
+	background-color: blue;
+	padding: 5px 10px;
+	border-radius: 50%;
+	color: white;
+	margin-left: 10px;
+	text-transform: uppercase;
+}
+
+
+/*banner end*/
+/*servise start*/
+.service{
+background-color: #111A2B;
+padding: 50px 0;
+}
+.single{
+	
+	width: 28%;
+	padding: 10px 20px;
+	float: left;
+	border-right: 1px solid white;
+
+}
+.single:last-child{
+	border-right: 0;
+}
+
+.tittle{
+overflow: hidden;
+}
+.icon{
+width: 25%;
+float: left;
+}
+.icon img{
+	width: 100%;
+}
+.icon-content{
+width: 70%;
+float: left;
+margin-top: 7px;
+}
+.icon-content h1{
+	color: white;
+	text-transform: capitalize;
+	font-family: sans-serif;
+}
+.icon-content h2{
+	color: #0178BC;
+	text-transform: capitalize;
+	font-family: sans-serif;
+}
+
+.content{
+
+}
+.content p{
+color: white;
+font-family: sans-serif;
+line-height: 1.5;
+}
+/*servise end*/
+.margin{
+background-color: #040811;
+}
+.bicon-content{
+
+}
+.bicon-content h2{
+	margin-top: 5px;
+	color: white;
+	text-transform: capitalize;
+	font-family: sans-serif;
+}
+.bicon-content span{
+	margin-top: 5px;
+	color: #0178BC;
+	text-transform: capitalize;
+	font-family: sans-serif;
+}
+
+/*footer start*/
+.footer{
+	
+	width: 100%;
+	padding: 9px 0px;
+	background-color: #121B2C;
+	text-align: center;
+
+}
+.footer p{
+	
+	color: #FFFFFF;
+}
+.footer p a{
+	font-weight: 700;
+	color: #FFFFFF;
+}
+
+
+/*footer end*/
+
+
+
